@@ -4,7 +4,7 @@
 
 An end-to-end AI system that forecasts demand for critical cable manufacturing raw materials — polymer layers (XLPE, PE, PVC, LSF), shielding materials (GSW, GST, copper/aluminum screens), and blocking materials (mica tape, water-blocking tape) — to help optimize inventory, reduce costs, and prevent supply chain disruptions.
 
-## Key Results
+## 🎯 Key Results
 
 | Metric | Value |
 |--------|-------|
@@ -16,12 +16,12 @@ An end-to-end AI system that forecasts demand for critical cable manufacturing r
 
 ---
 
-## Notebooks Overview
+## 📓 Notebooks Overview
 
 This repository contains 5 notebooks representing the full pipeline — from synthetic data generation to production-ready inference with adaptive model selection.
 
-### 1. `ElSewedy_Dataset.ipynb`
-[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Dataset.ipynb](https://colab.research.google.com/drive/1mYLbWn1NT5v7cYm2p5qLGzGLALyPomtS?usp=sharing))
+### 1.`ElSewedy_Dataset.ipynb`
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Dataset.ipynb)
 
 **Synthetic Data Generation**
 
@@ -36,7 +36,7 @@ Generates a realistic dataset simulating procurement history across 17 cable raw
 ---
 
 ### 2. `ElSewedy_Data_Visualization.ipynb`
-[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Data_Visualization.ipynb](https://colab.research.google.com/drive/1vFegSGpiFLUAtH2a64nAgS24LRp6FyTP?usp=sharing))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Data_Visualization.ipynb)
 
 **Exploratory Data Analysis**
 
@@ -52,7 +52,7 @@ Deep-dive analysis into demand patterns, supplier performance, and inventory hea
 ---
 
 ### 3. `ElSewedy_Forecasting.ipynb`
-[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Forecasting.ipynb](https://colab.research.google.com/drive/19Yv_0uJ10MQ1mT5KMlw0Zn9rZ4qnXpPs?usp=sharing))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Forecasting.ipynb)
 
 **Core Forecasting Models (Traditional ML + Deep Learning)**
 
@@ -72,7 +72,7 @@ Trains and evaluates 6 forecasting models on 31 engineered features (temporal la
 | TCN | ~0.54 | ~8.0 |
 | LSTM | ~0.47 | ~8.4 |
 
-> **Key Finding:** On a 612-record tabular dataset, tree-based ensemble methods (Gradient Boosting, XGBoost) significantly outperformed deep learning architectures. This directly motivated the meta-learning approach in Notebook 4.
+> 💡 **Key Finding:** On a 612-record tabular dataset, tree-based ensemble methods (Gradient Boosting, XGBoost) significantly outperformed deep learning architectures. This directly motivated the meta-learning approach in Notebook 4.
 
 - Feature engineering pipeline (lag features, moving averages, cyclical encoding)
 - Time-based train/test split to prevent data leakage
@@ -82,7 +82,7 @@ Trains and evaluates 6 forecasting models on 31 engineered features (temporal la
 ---
 
 ### 4. `Dynamic_Model_Selection_Meta_Learning.ipynb`
-[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/Dynamic_Model_Selection_Meta_Learning.ipynb](https://colab.research.google.com/drive/1j0S2Zv2KhnFEuToCtKEY56RwHzncSJeB?usp=sharing))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/Dynamic_Model_Selection_Meta_Learning.ipynb)
 
 **Meta-Learning for Adaptive Model Selection**
 
@@ -113,7 +113,7 @@ Since traditional ML models clearly outperformed deep learning on this dataset, 
 ---
 
 ### 5. `ElSewedy_Demand_Inference.ipynb`
-[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Demand_Inference.ipynb](https://colab.research.google.com/drive/1lqZmz0DevW27Q9-zjAmAixOiMWVj2QC9?usp=sharing))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Demand_Inference.ipynb)
 
 **Production Inference Pipeline**
 
@@ -128,7 +128,7 @@ The deployment-ready notebook that loads the meta-learned model selector and gen
 
 ---
 
-## Repository Structure
+## 🗂️ Repository Structure
 
 ```
 elsewedy-demand-forecasting/
@@ -152,7 +152,7 @@ elsewedy-demand-forecasting/
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Data Processing:** Pandas, NumPy
 - **Traditional ML:** Scikit-learn, XGBoost
@@ -184,15 +184,15 @@ pip install pandas numpy scikit-learn xgboost tensorflow matplotlib seaborn
 
 | Notebook | Open in Colab |
 |----------|----------------|
-| 1. Dataset Generation | [![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Dataset.ipynb](https://colab.research.google.com/drive/1mYLbWn1NT5v7cYm2p5qLGzGLALyPomtS?usp=sharing)) |
-| 2. Data Visualization | [![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Data_Visualization.ipynb](https://colab.research.google.com/drive/1vFegSGpiFLUAtH2a64nAgS24LRp6FyTP?usp=sharing)) |
-| 3. Forecasting Models | [![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Forecasting.ipynb](https://colab.research.google.com/drive/19Yv_0uJ10MQ1mT5KMlw0Zn9rZ4qnXpPs?usp=sharing)) |
-| 4. Meta-Learning Selection | [![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/Dynamic_Model_Selection_Meta_Learning.ipynb](https://colab.research.google.com/drive/1j0S2Zv2KhnFEuToCtKEY56RwHzncSJeB?usp=sharing)) |
-| 5. Demand Inference | [![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Demand_Inference.ipynb](https://colab.research.google.com/drive/1lqZmz0DevW27Q9-zjAmAixOiMWVj2QC9?usp=sharing)) |
+| 1. Dataset Generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Dataset.ipynb) |
+| 2. Data Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Data_Visualization.ipynb) |
+| 3. Forecasting Models | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Forecasting.ipynb) |
+| 4. Meta-Learning Selection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/Dynamic_Model_Selection_Meta_Learning.ipynb) |
+| 5. Demand Inference | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Demand_Inference.ipynb) |
 
 ---
 
-## Methodology Summary
+## 📊 Methodology Summary
 
 ```
 Raw Data (20 cols, 612 records)
@@ -230,6 +230,6 @@ Faculty of Computers and Information Sciences, Ain Shams University
 - **Fatma Elwasify** — fatma.gamal@cis.asu.edu.eg
 - **Ahmed Darweesh** — ahmed.darweesh@cis.asu.edu.eg
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
