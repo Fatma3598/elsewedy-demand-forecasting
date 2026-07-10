@@ -221,8 +221,6 @@ Faculty of Computers and Information Sciences, Ain Shams University
 - Ahmed Darweesh
 - Fatma Elwasify
 - Radwa El-Hosseiny
-- Omar Salama
-- Ali Ahmed Shawky
 - Myvel Nabil Ramsis
 - Mona Abdelazim
 
