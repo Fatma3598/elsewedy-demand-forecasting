@@ -184,11 +184,11 @@ pip install pandas numpy scikit-learn xgboost tensorflow matplotlib seaborn
 
 | Notebook | Open in Colab |
 |----------|----------------|
-| 1. Dataset Generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Dataset.ipynb) |
-| 2. Data Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Data_Visualization.ipynb) |
-| 3. Forecasting Models | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Forecasting.ipynb) |
-| 4. Meta-Learning Selection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/Dynamic_Model_Selection_Meta_Learning.ipynb) |
-| 5. Demand Inference | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Demand_Inference.ipynb) |
+| 1. Dataset Generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mYLbWn1NT5v7cYm2p5qLGzGLALyPomtS?usp=sharing) |
+| 2. Data Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vFegSGpiFLUAtH2a64nAgS24LRp6FyTP?usp=sharing) |
+| 3. Forecasting Models | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19Yv_0uJ10MQ1mT5KMlw0Zn9rZ4qnXpPs?usp=sharing) |
+| 4. Meta-Learning Selection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j0S2Zv2KhnFEuToCtKEY56RwHzncSJeB?usp=sharing) |
+| 5. Demand Inference | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lqZmz0DevW27Q9-zjAmAixOiMWVj2QC9?usp=sharing) |
 
 ---
 
@@ -218,13 +218,13 @@ Faculty of Computers and Information Sciences, Ain Shams University
 🏆 **Top 5 Finalist** — Elsewedy Electric AI Innovation Competition
 
 **Team Members:**
-- Fatma Elwasify
 - Ahmed Darweesh
+- Fatma Elwasify
 - Radwa El-Hosseiny
-- Mona Abdelazim
-- Myvel Nabil Ramsis
 - Omar Salama
 - Ali Ahmed Shawky
+- Myvel Nabil Ramsis
+- Mona Abdelazim
 
 **Notebooks & Modeling by:**
 - **Fatma Elwasify** — fatma.gamal@cis.asu.edu.eg
