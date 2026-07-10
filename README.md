@@ -36,7 +36,7 @@ Generates a realistic dataset simulating procurement history across 17 cable raw
 ---
 
 ### 2. `ElSewedy_Data_Visualization.ipynb`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Data_Visualization.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vFegSGpiFLUAtH2a64nAgS24LRp6FyTP?usp=sharing)
 
 **Exploratory Data Analysis**
 
@@ -52,7 +52,7 @@ Deep-dive analysis into demand patterns, supplier performance, and inventory hea
 ---
 
 ### 3. `ElSewedy_Forecasting.ipynb`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Forecasting.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19Yv_0uJ10MQ1mT5KMlw0Zn9rZ4qnXpPs?usp=sharing)
 
 **Core Forecasting Models (Traditional ML + Deep Learning)**
 
@@ -113,7 +113,7 @@ Since traditional ML models clearly outperformed deep learning on this dataset, 
 ---
 
 ### 5. `ElSewedy_Demand_Inference.ipynb`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Demand_Inference.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lqZmz0DevW27Q9-zjAmAixOiMWVj2QC9?usp=sharing)
 
 **Production Inference Pipeline**
 
