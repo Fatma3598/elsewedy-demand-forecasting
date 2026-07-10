@@ -21,7 +21,7 @@ An end-to-end AI system that forecasts demand for critical cable manufacturing r
 This repository contains 5 notebooks representing the full pipeline — from synthetic data generation to production-ready inference with adaptive model selection.
 
 ### 1.`ElSewedy_Dataset.ipynb`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/notebooks/ElSewedy_Dataset.ipynb](https://colab.research.google.com/drive/1mYLbWn1NT5v7cYm2p5qLGzGLALyPomtS?usp=sharing))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatma3598/elsewedy-demand-forecasting/blob/main/Notebooks/Dynamic_Model_Selection_Meta_Learning.ipynb)
 
 **Synthetic Data Generation**
 
