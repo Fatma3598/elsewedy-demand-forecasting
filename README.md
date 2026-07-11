@@ -1,8 +1,20 @@
 # 🔌 AI-Based Demand Forecasting for Cable Raw Materials
 
-**Elsewedy Electric AI Innovation Competition | Top 5 Finalist 🏆 **
+**Elsewedy Electric AI Innovation Competition | Top 5 Finalist 🏆**
 
 An end-to-end AI system that forecasts demand for critical cable manufacturing raw materials — polymer layers (XLPE, PE, PVC, LSF), shielding materials (GSW, GST, copper/aluminum screens), and blocking materials (mica tape, water-blocking tape) — to help optimize inventory, reduce costs, and prevent supply chain disruptions.
+
+## My Contribution
+
+This github project was jointly developed by **Fatma Elwasify** and **Ahmed Darweesh**.
+
+My contributions included:
+
+- End-to-end machine learning pipeline development.
+- Data preprocessing and feature engineering.
+- Model implementation, training, and evaluation.
+- Experimental analysis using multiple machine learning approaches.
+- Technical documentation and project presentation.
 
 ## 🎯 Key Results
 
@@ -59,11 +71,17 @@ Deep-dive analysis into demand patterns, supplier performance, and inventory hea
 Trains and evaluates 6 forecasting models on 31 engineered features (temporal lags, rolling statistics, risk scores, inventory ratios).
 
 **Traditional ML (Strong Performers):**
-| Model | R² Score | MAE (TON) |
-|-------|----------|-----------|
-| **Gradient Boosting** ⭐ | **~0.985** | **~1.28** |
-| XGBoost | ~0.98 | ~1.5 |
-| Random Forest | ~0.97 | ~1.6 |
+## 📈 Model Performance
+
+The best-performing traditional machine learning models achieved the following results:
+
+| Model | MAE ↓ | RMSE ↓ | R² ↑ | MAPE ↓ | Accuracy |
+|------|------:|------:|------:|------:|------:|
+| Gradient Boosting | **1.28** | **2.10** | **0.9851** | **3.48%** | **98.51%** |
+| XGBoost | 1.36 | 2.57 | 0.9777 | 3.52% | 97.77% |
+| Random Forest | 1.58 | 2.94 | 0.9709 | 4.19% | 97.09% |
+
+> Detailed experiments, deep learning models, visualizations, and complete evaluation are available in the accompanying Google Colab notebooks.
 
 **Deep Learning (Underperformed on this dataset size):**
 | Model | R² Score | MAE (TON) |
@@ -127,6 +145,14 @@ The deployment-ready notebook that loads the meta-learned model selector and gen
 - Produces business-ready output tables for procurement teams
 
 ---
+
+## 🚀 Future Work
+
+- Transformer-based time-series forecasting.
+- Probabilistic demand forecasting.
+- Real-time deployment using cloud services.
+- Integration with ERP and inventory management systems.
+- Edge deployment for industrial environments.
 
 ## 🗂️ Repository Structure
 
@@ -231,3 +257,4 @@ Faculty of Computers and Information Sciences, Ain Shams University
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+## ⭐ If you find this project useful, please consider starring the repository.
