@@ -1,6 +1,6 @@
 # 🔌 AI-Based Demand Forecasting for Cable Raw Materials
 
-**Elsewedy Electric AI Innovation Competition | Top 5 Finalist 🏆**
+**Elsewedy Electric AI Innovation Competition | Top 5 Finalist 🏆 **
 
 An end-to-end AI system that forecasts demand for critical cable manufacturing raw materials — polymer layers (XLPE, PE, PVC, LSF), shielding materials (GSW, GST, copper/aluminum screens), and blocking materials (mica tape, water-blocking tape) — to help optimize inventory, reduce costs, and prevent supply chain disruptions.
 
